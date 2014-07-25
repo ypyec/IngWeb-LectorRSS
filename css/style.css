@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+.noticia h4{
+	margin: 0 !important;
+	font-size:14px !important;
+}
+.noticia p{
+	margin: 0 !important;
+	font-size:10px !important;
+}
+.noticia table{
+	display:inline-block;
+	float:left;
+}
+
+.ui-header{
+	position: fixed !important;
+	width: 100%;
+	z-index: 10;
+	background-repeat:repeat-x;
+	background-size:contain;
+}
+
+#refresh{
+	position: fixed;
+	width: 22px;
+	right: 0;
+	top: 0;
+	padding: 11px;
+}
+#back{
+	position: fixed;
+	width: 17px;
+	left: 0;
+	top: 0;
+	padding: 13px;
+}
+
+.innerImgs{
+	max-width:100%;
+}
